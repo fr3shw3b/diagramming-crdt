@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.block {
+  margin: 35px auto;
+}
+
+.canvas {
+  position: relative;
+  height: 1000px;
+  min-width: 1000px;
+  margin-top: 30px;
+  background-color: #333333;
+}
+
+.node {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  cursor: move;
+  height: 100px;
+  background-color: #f2f2f2;
+  color: #000000;
+  font-size: 1.2rem;
+  border: 1px solid #333333;
+  border-radius: 5px;
+}
